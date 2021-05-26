@@ -1,7 +1,7 @@
 import java.util.*;
 class secondlargest
 {
-    public static void main(String[] args) 
+    public static void main(String[]args) 
     { 
         int i;
         Scanner sc = new Scanner(System.in);
@@ -23,8 +23,6 @@ class secondlargest
                 if (arr[i] > max2)
                  max2= arr[i];}
             }
-
-
            System.out.println(max2);
 }
 }
